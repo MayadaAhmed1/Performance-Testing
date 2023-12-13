@@ -2,63 +2,40 @@
 # Project/Application Name
 This is a trial project for performance testing done at public insuurance website
 
-## Flow Diagram
-
-![app-flow-diagram-image-here](../images/flow-diagram.jpg)
-
-## Architecture Diagram
-
-![architecture-diagram-image-here](../images/architecture.jpg)
+## Performance test strategy:
+1)Understand the System
+2)Define the measurement criteria needed to evaluate API 
+3)Define the type of test 
+4)load calculations
 
 ## Project/Application Information
 
-- Backing Services
-    - OAuth 2.0
-    - MongoDB
-
-- API Context Root
-    - /example/v1
+- Performance tool
+    - Jmeter
+    - Blazemeter
+      
+ -Website browser
+    -Chrome 
 
 - Technical Stack
     - Java
-    - ReactJS
 
-- Test and Testing Libraries
-    - JUnit
-    - Mockito
-    - PowerMockito
-    - Jest
-    - Cypress
-    - Enzyme
-    - Playwright
+- Plugins and external files 
+    - Jmeter plugin manager
+    - CSV file 
 
-- Binary File Location
-    - [Binary Repo]()
 
-- Swagger or Similar Doc
-    - [Doc Link]()
+## Content 
+ -Using Record and play through "Blazemeter" chrome extension
+ -Using Http requests manually data handling 
+ -Adding listeners like(View result /aggregated graph/ time response )
+ -Using logic controller folders structure ( divide user journey )
+ -Using Http Cookie manager to handle user cookie session
+ -Using main assertion like( reponse code status and body text)
+ -Extract dynamic data from response body by using "Postprocess" and "regular exression extract"
+ -Import data from external file (CSV) for 10 new users for signup 
 
-## Deployment
-
-- CI-CD Pipeline tool details
-    - [Link]()
-
-- Infrastructrue details (where is deployed and running)
-
-## Monitoring
-
-- AppD/New Relic or any other APM tool details
-
-## Common Errors
-
-|Error Desc|Error Message|How to fix it?|
-|---|---|---|
-|Some error desc|Some error message|Steps to fix|
-
-## Integration Steps
-
-How to consume the API or how to integrate?
 
 ## Getting started with local development
 
-Outline step, how it can be run lcoally
+You can run project locally by open file (.jmx) at jmeter application 
