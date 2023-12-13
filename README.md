@@ -3,19 +3,21 @@
 This is a trial project for performance testing done at public insuurance website
 
 ## Performance test strategy:
-1)Understand the System
-2)Define the measurement criteria needed to evaluate API 
-3)Define the type of test 
-4)load calculations
+
+- Understand the System
+- Define the measurement criteria needed to evaluate API
+- Define the type of test
+- load calculations
 
 ## Project/Application Information
 
 - Performance tool
     - Jmeter
     - Blazemeter
-      
- -Website browser
-    -Chrome 
+
+
+- Website browser
+    - Chrome 
 
 - Technical Stack
     - Java
@@ -26,14 +28,15 @@ This is a trial project for performance testing done at public insuurance websit
 
 
 ## Content 
- -Using Record and play through "Blazemeter" chrome extension
- -Using Http requests manually data handling 
- -Adding listeners like(View result /aggregated graph/ time response )
- -Using logic controller folders structure ( divide user journey )
- -Using Http Cookie manager to handle user cookie session
- -Using main assertion like( reponse code status and body text)
- -Extract dynamic data from response body by using "Postprocess" and "regular exression extract"
- -Import data from external file (CSV) for 10 new users for signup 
+
+- Using Record and play through "Blazemeter" chrome extension
+- Using Http requests manually data handling
+- Adding listeners like(View result /aggregated graph/ time response )
+- Using logic controller folders structure ( divide user journey )
+- Using Http Cookie manager to handle user cookie session
+- Using main assertion like( reponse code status and body text)
+- Extract dynamic data from response body by using "Postprocess" and "regular exression extract"
+- import data from external file (CSV) for 10 new users for signup 
 
 
 ## Getting started with local development
