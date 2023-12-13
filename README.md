@@ -1,6 +1,6 @@
 
 # Project/Application Name
-This is a trial project for performance testing done at public insuurance website
+This is a trial project for performance testing done at public insurance website
 
 ## Performance test strategy:
 
